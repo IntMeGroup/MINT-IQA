@@ -1,7 +1,7 @@
 # MINT-IQA
-# AIGCIQA2023
-This is the official repo of the paper [Understanding and Evaluating Human Preferences
-for AI Generated Images with Instruction Tuning]:
+# AIGCIQA2023+
+This is the official repo of the paper Understanding and Evaluating Human Preferences
+for AI Generated Images with Instruction Tuning:
 
 <hr />
 
