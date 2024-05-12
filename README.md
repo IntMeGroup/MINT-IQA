@@ -1,5 +1,5 @@
 # MINT-IQA
-# AIGCIQA2023+
+
 This is the official repo of the paper Understanding and Evaluating Human Preferences
 for AI Generated Images with Instruction Tuning:
 
@@ -46,6 +46,7 @@ The mapping relationship between MOS points and filenames are as follows:
 **mosz2**: Authenticity
 
 **mosz3**: Correspondence
-
+###
+The code of MINT-IQA model will be released to facilitate future research.
 ### Contact
 If you have any question, please contact wangjiarui@sjtu.edu.cn
