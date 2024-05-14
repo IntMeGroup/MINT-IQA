@@ -48,7 +48,9 @@ will be released to facilitate future research.*
 The constructed AIGCIQA2023 database can be accessed using the links below.
 Download AIGCIQA2023 database:[[百度网盘](https://pan.baidu.com/s/1v85j6hKJcRcHm74FDTEosA) 
 (提取码：q9dt)], [[Terabox](https://terabox.com/s/1DtV-A9XiuQQDvVPXn6rYvg)]
+
 <img width="500" alt="a82d1d832f524caf4e1b93d4a85eb36" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a3434b0-2709-4f9e-b514-7559d1cca30d">
+
 The mapping relationship between MOS points and filenames are as follows:
 
 **mosz1**: Quality
