@@ -59,6 +59,7 @@ The mapping relationship between MOS points and filenames are as follows:
 
 ### Code
 <img width="1000" alt="d9cb2afb495449c3ddd397d0cbfe363" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a53fe69-80e6-4a10-813e-029c8603fe87">
+<img width="1000" alt="2f36546a4514aa8ba744d62432b7b95" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/250a0258-1b09-4857-a79d-878f21764726">
 
 The code of MINT-IQA model will be released to facilitate future research.
 ### Contact
