@@ -41,7 +41,7 @@ on traditional IQA tasks compared with state-of-the-art IQA
 models. The AIGCIQA2023+ database and MINT-IQA model
 will be released to facilitate future research.* 
 <hr />
-<img width="1000" alt="a82d1d832f524caf4e1b93d4a85eb36" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a3434b0-2709-4f9e-b514-7559d1cca30d">
+          <img width="1000" alt="a82d1d832f524caf4e1b93d4a85eb36" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a3434b0-2709-4f9e-b514-7559d1cca30d">
 
 
 ### Database
