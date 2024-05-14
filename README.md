@@ -41,9 +41,7 @@ on traditional IQA tasks compared with state-of-the-art IQA
 models. The AIGCIQA2023+ database and MINT-IQA model
 will be released to facilitate future research.* 
 <hr />
-<img width="397" alt="a82d1d832f524caf4e1b93d4a85eb36" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a3434b0-2709-4f9e-b514-7559d1cca30d">
-
-![samples_imgs_00](https://github.com/wangjiarui153/AIGCIQA2023/assets/104545370/ab434e91-a766-4de4-babd-1d8fe5cb70c0)
+<img width="1000" alt="a82d1d832f524caf4e1b93d4a85eb36" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a3434b0-2709-4f9e-b514-7559d1cca30d">
 ### Database
 The constructed AIGCIQA2023 database can be accessed using the links below.
 Download AIGCIQA2023 database:[[百度网盘](https://pan.baidu.com/s/1v85j6hKJcRcHm74FDTEosA) 
@@ -57,7 +55,7 @@ The mapping relationship between MOS points and filenames are as follows:
 
 **mosz3**: Correspondence
 ### Code
-<img width="812" alt="d9cb2afb495449c3ddd397d0cbfe363" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a53fe69-80e6-4a10-813e-029c8603fe87">
+<img width="1000" alt="d9cb2afb495449c3ddd397d0cbfe363" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a53fe69-80e6-4a10-813e-029c8603fe87">
 
 The code of MINT-IQA model will be released to facilitate future research.
 ### Contact
