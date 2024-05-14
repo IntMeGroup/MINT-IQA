@@ -55,7 +55,7 @@ The mapping relationship between MOS points and filenames are as follows:
 **mosz2**: Authenticity
 
 **mosz3**: Correspondence
-###
+### Code
 The code of MINT-IQA model will be released to facilitate future research.
 ### Contact
 If you have any question, please contact wangjiarui@sjtu.edu.cn
