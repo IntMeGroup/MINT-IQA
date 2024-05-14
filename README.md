@@ -1,7 +1,7 @@
 # MINT-IQA
 
 This is the official repo of the paper [Understanding and Evaluating Human Preferences
-for AI Generated Images with Instruction Tuning]([http://arxiv.org/abs/2307.00211](https://arxiv.org/abs/2405.07346):
+for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346):
  ```
 @misc{wang2024understanding,
       title={Understanding and Evaluating Human Preferences for AI Generated Images with Instruction Tuning}, 
