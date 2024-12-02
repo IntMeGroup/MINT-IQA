@@ -1,0 +1,6 @@
+transformers>=4.27.4
+Pillow
+torch 
+torchvision 
+torchaudio
+lavis @ git+https://github.com/salesforce/LAVIS.git
