@@ -1,17 +1,7 @@
 # MINT-IQA
 
 This is the official repo of the paper [Understanding and Evaluating Human Preferences
-for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346):
- ```
-@misc{wang2024understanding,
-      title={Understanding and Evaluating Human Preferences for AI Generated Images with Instruction Tuning}, 
-      author={Jiarui Wang and Huiyu Duan and Guangtao Zhai and Xiongkuo Min},
-      year={2024},
-      eprint={2405.07346},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346)
 <hr />
 
 > **Abstract:** *Artificial Intelligence Generated Content (AIGC)
@@ -62,7 +52,59 @@ The mapping relationship between MOS points and filenames are as follows:
 ### Code
 <img width="1000" alt="d9cb2afb495449c3ddd397d0cbfe363" src="https://github.com/IntMeGroup/MINT-IQA/assets/104545370/2a53fe69-80e6-4a10-813e-029c8603fe87">
 
+## 🛠️ Installation
 
-The code of MINT-IQA model will be released to facilitate future research.
-### Contact
-If you have any question, please contact wangjiarui@sjtu.edu.cn
+Clone this repository:
+```
+git clone https://github.com/wangjiarui153/MINT-IQAL.git
+```
+Create a conda virtual environment and activate it:
+```
+conda create -n MINTIQA python=3.8
+conda activate MINTIQA
+```
+Install dependencies using requirements.txt:
+```
+pip install -r requirements.txt
+```
+## 🚀 Weight and Database Download
+The codes and inference weights can be downloaded from 
+链接：https://pan.baidu.com/s/1dJNN9sL-cPytOm8vjEDEHQ 
+提取码：k2vf 
+
+The Database is in:
+https://github.com/wangjiarui153/AIGCIQA2023
+
+## 🌈 Inference
+
+Set img_path in inference.py line29
+Set the corresponding prompt to the image in inference.py line31
+file setting in config/options_infer.py
+
+```
+python inference.py
+```
+
+## 📌 TODO
+- ✅ Release the AIGCIQA2023 database
+- ✅ Release the Inference code (stage1 and stage2)
+- [ ] Release the training code (stage1 and stage2)
+
+
+## 📧 Contact
+If you have any inquiries, please don't hesitate to reach out via email at `wangjiarui@sjtu.edu.cn`
+
+## 🎓Citations
+
+If you find MINT-IQA is helpful, please cite:
+
+```bibtex
+@misc{wang2024understandingevaluatinghumanpreferences,
+      title={Understanding and Evaluating Human Preferences for AI Generated Images with Instruction Tuning}, 
+      author={Jiarui Wang and Huiyu Duan and Guangtao Zhai and Xiongkuo Min},
+      year={2024},
+      eprint={2405.07346},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2405.07346}, 
+}
