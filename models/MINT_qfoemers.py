@@ -1,7 +1,15 @@
+"""
+Requires Transformer 4.28 and above, implementation may change according the Llama implementation
+"""
 import logging
+import string
+from packaging import version
+
 import torch
 from torch.cuda.amp import autocast as autocast
 import torch.nn as nn
+from torch.nn import functional as F
+import transformers
 from models.blip2r import Blip2Base, disabled_train
 from config.options import *
 class MINTqformer1(Blip2Base):
@@ -21,6 +29,8 @@ class MINTqformer1(Blip2Base):
         qformer_text_input=True,
     ):
         super().__init__()      
+        from transformers import LlamaTokenizer
+        from models.modeling_llama import LlamaForCausalLM
         
         self.tokenizer = self.init_tokenizer(truncation_side="left")
         self.visual_encoder, self.ln_vision = self.init_vision_encoder(
@@ -32,7 +42,6 @@ class MINTqformer1(Blip2Base):
     
         for name, parms in self.visual_encoder.named_parameters():
             parms.requires_grad_(False)
-            print('freeze',name)
             if image_fix_num in name:
                 break
 
@@ -47,6 +56,7 @@ class MINTqformer1(Blip2Base):
         self.Qformer, self.query_tokens = self.init_Qformer(
             num_query_token, self.visual_encoder.num_features
         )
+        self.query_tokens_initial = self.query_tokens  
         self.Qformer.resize_token_embeddings(len(self.tokenizer))
 
         state_dict = self.Qformer.state_dict()
@@ -61,6 +71,7 @@ class MINTqformer1(Blip2Base):
         self.quality1 = self.quality_regression(self.Qformer.config.hidden_size, 48, 3)
         self.quality2 = self.quality_regression(self.Qformer.config.hidden_size, 48, 3)
         self.quality3 = self.quality_regression(self.Qformer.config.hidden_size, 48, 3)
+
         self.temp = nn.Parameter(0.07 * torch.ones([]))
 
         self.max_txt_len = max_txt_len
@@ -154,11 +165,22 @@ class MINTqformer2(Blip2Base):
         freeze_vit=False,
         num_query_token=32,
         embed_dim=256,
+        cross_attention_freq=2,
         llm_model="vicuna7b",
         prompt="",
         max_txt_len=128,
         max_output_txt_len=256,
+        apply_lemmatizer=False,
         qformer_text_input=True,
+        use_nucleus_sampling=False,
+        num_beams=5,
+        max_length=256,
+        min_length=1,
+        top_p=0.9,
+        repetition_penalty=1.5,
+        length_penalty=1,
+        num_captions=1,
+        temperature=1,
     ):
         super().__init__()      
         from transformers import LlamaTokenizer
@@ -170,12 +192,12 @@ class MINTqformer2(Blip2Base):
         )
 
         self.image_layer_num = 38
-        # image_fix_num = "blocks.{}".format(int(self.image_layer_num * opts.fix_rate))
+        image_fix_num = "blocks.{}".format(int(self.image_layer_num * opts.fix_rate))
     
-        # for name, parms in self.visual_encoder.named_parameters():
-        #     parms.requires_grad_(False)
-        #     if image_fix_num in name:
-        #         break
+        for name, parms in self.visual_encoder.named_parameters():
+            parms.requires_grad_(False)
+            if image_fix_num in name:
+                break
 
         freeze_vit = True
         if freeze_vit:
@@ -188,7 +210,8 @@ class MINTqformer2(Blip2Base):
         self.Qformer, self.query_tokens = self.init_Qformer(
             num_query_token, self.visual_encoder.num_features
         )
-        
+        self.query_tokens_initial = self.query_tokens  
+        self.query_tokens2 = self.query_tokens
         self.Qformer.resize_token_embeddings(len(self.tokenizer))
 
         state_dict = self.Qformer.state_dict()
@@ -199,6 +222,7 @@ class MINTqformer2(Blip2Base):
 
         self.vision_proj = nn.Linear(self.Qformer.config.hidden_size, embed_dim)
         self.text_proj = nn.Linear(self.Qformer.config.hidden_size, embed_dim)
+       # print('self.Qformer.config.hidden_size',self.Qformer.config.hidden_size)
 
         self.temp = nn.Parameter(0.07 * torch.ones([]))
 
@@ -213,9 +237,15 @@ class MINTqformer2(Blip2Base):
         self.llm_tokenizer.add_special_tokens({'bos_token': '</s>'})
         self.llm_tokenizer.add_special_tokens({'eos_token': '</s>'})
         self.llm_tokenizer.add_special_tokens({'unk_token': '</s>'})
+        # self.llm_tokenizer.pad_token = self.llm_tokenizer.unk_token
 
         self.llm_model.resize_token_embeddings(len(self.llm_tokenizer))
 
+        # self.eos_token_id = self.llm_tokenizer(
+        #     self.llm_tokenizer.eos_token, add_special_tokens=False
+        # ).input_ids[0]
+        # for name, param in self.query_tokens1.named_parameters():
+        #     param.requires_grad = False
         for name, param in self.llm_model.named_parameters():
             param.requires_grad = False
 
@@ -286,11 +316,13 @@ class MINTqformer2(Blip2Base):
         self.image_atts = torch.ones(self.image_embeds.size()[:-1], dtype=torch.long).to(
             image.device
         )
-        query_tokens2 = self.zero_forward(vl_embeddings) + self.query_tokens
+        # self.query_tokens2 = self.zero_forward(self.query_tokens1) + self.query_tokens_initial
+        self.query_tokens2 = self.zero_forward(vl_embeddings) + self.query_tokens
+        # self.query_tokens2 = self.query_tokens
 
         bs = image.size(0)
 
-        query_tokens = query_tokens2.expand(self.image_embeds.shape[0], -1, -1)
+        query_tokens = self.query_tokens2.expand(self.image_embeds.shape[0], -1, -1)
         query_atts = torch.ones(query_tokens.size()[:-1], dtype=torch.long).to(image.device)
         Qformer_atts = torch.cat([query_atts, tq_mask],dim=1)
 
@@ -342,6 +374,7 @@ class MINTqformer2(Blip2Base):
                 labels=targets,
             )
         
+
         loss = outputs.loss
 
         return loss, back_vector
