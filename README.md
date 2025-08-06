@@ -1,7 +1,6 @@
-# MINT-IQA
+# MINT-IQA: Quality Assessment for AI Generated Images with Instruction Tuning (TMM)
 
-This is the official repo of the paper [Understanding and Evaluating Human Preferences
-for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346)
+This is the official repo of the paper [Quality Assessment for AI Generated Images with Instruction Tunin](https://arxiv.org/abs/2405.07346)
 <hr />
 
 > **Abstract:** *Artificial Intelligence Generated Content (AIGC)
