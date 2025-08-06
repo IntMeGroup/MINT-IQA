@@ -1,6 +1,6 @@
 # MINT-IQA: Quality Assessment for AI Generated Images with Instruction Tuning (TMM)
 
-This is the official repo of the paper [Quality Assessment for AI Generated Images with Instruction Tunin](https://arxiv.org/abs/2405.07346)
+This is the official repo of the paper [Quality Assessment for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346)
 <hr />
 
 > **Abstract:** *Artificial Intelligence Generated Content (AIGC)
@@ -84,10 +84,36 @@ file setting in config/options_infer.py
 python inference.py
 ```
 
+## 🚀 Training
+For  Stage 1 Score Training
+```
+python train_stage1.py
+```
+or You can choose to train with LoRA
+```
+python train_stage1_lora3.py
+```
+
+For Stage 2 Explanation Training
+```
+python train_stage2.py
+```
+
+## 🌈 Evaluation
+For  Stage 1 Score Evaluation
+```
+evaluate_3scores.py
+```
+For Stage 2 Explanation Evaluation
+
+```
+evaluate_instruct.py
+```
+
 ## 📌 TODO
 - ✅ Release the AIGCIQA2023 database
 - ✅ Release the Inference code (stage1 and stage2)
-- [ ] Release the training code (stage1 and stage2)
+- ✅ Release the training code (stage1 and stage2)
 
 
 ## 📧 Contact
