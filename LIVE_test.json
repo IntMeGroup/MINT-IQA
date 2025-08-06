@@ -1,0 +1,938 @@
+[
+    {
+        "id": 704,
+        "prompt": "",
+        "img": "fastfading/img70.bmp",
+        "moz1": 0.2117
+    },
+    {
+        "id": 162,
+        "prompt": "",
+        "img": "jp2k/img218.bmp",
+        "moz1": 0.5908
+    },
+    {
+        "id": 446,
+        "prompt": "",
+        "img": "wn/img102.bmp",
+        "moz1": 0.4056
+    },
+    {
+        "id": 720,
+        "prompt": "",
+        "img": "fastfading/img86.bmp",
+        "moz1": 0.6901
+    },
+    {
+        "id": 778,
+        "prompt": "",
+        "img": "fastfading/img144.bmp",
+        "moz1": 0.4894
+    },
+    {
+        "id": 740,
+        "prompt": "",
+        "img": "fastfading/img106.bmp",
+        "moz1": 0.5383
+    },
+    {
+        "id": 696,
+        "prompt": "",
+        "img": "fastfading/img62.bmp",
+        "moz1": 0.5904
+    },
+    {
+        "id": 725,
+        "prompt": "",
+        "img": "fastfading/img91.bmp",
+        "moz1": 0.4863
+    },
+    {
+        "id": 118,
+        "prompt": "",
+        "img": "jp2k/img163.bmp",
+        "moz1": 0.4807
+    },
+    {
+        "id": 12,
+        "prompt": "",
+        "img": "jp2k/img15.bmp",
+        "moz1": 0.2614
+    },
+    {
+        "id": 567,
+        "prompt": "",
+        "img": "gblur/img78.bmp",
+        "moz1": 0.6241
+    },
+    {
+        "id": 258,
+        "prompt": "",
+        "img": "jpeg/img119.bmp",
+        "moz1": 0.3414
+    },
+    {
+        "id": 542,
+        "prompt": "",
+        "img": "gblur/img53.bmp",
+        "moz1": 0.5571
+    },
+    {
+        "id": 480,
+        "prompt": "",
+        "img": "wn/img136.bmp",
+        "moz1": 0.7249
+    },
+    {
+        "id": 642,
+        "prompt": "",
+        "img": "fastfading/img8.bmp",
+        "moz1": 0.6448
+    },
+    {
+        "id": 391,
+        "prompt": "",
+        "img": "wn/img47.bmp",
+        "moz1": 0.7146
+    },
+    {
+        "id": 395,
+        "prompt": "",
+        "img": "wn/img51.bmp",
+        "moz1": 0.5403
+    },
+    {
+        "id": 66,
+        "prompt": "",
+        "img": "jp2k/img88.bmp",
+        "moz1": 0.6302
+    },
+    {
+        "id": 611,
+        "prompt": "",
+        "img": "gblur/img122.bmp",
+        "moz1": 0.3722
+    },
+    {
+        "id": 741,
+        "prompt": "",
+        "img": "fastfading/img107.bmp",
+        "moz1": 0.4958
+    },
+    {
+        "id": 743,
+        "prompt": "",
+        "img": "fastfading/img109.bmp",
+        "moz1": 0.3428
+    },
+    {
+        "id": 643,
+        "prompt": "",
+        "img": "fastfading/img9.bmp",
+        "moz1": 0.5284
+    },
+    {
+        "id": 157,
+        "prompt": "",
+        "img": "jp2k/img213.bmp",
+        "moz1": 0.6401
+    },
+    {
+        "id": 113,
+        "prompt": "",
+        "img": "jp2k/img155.bmp",
+        "moz1": 0.672
+    },
+    {
+        "id": 49,
+        "prompt": "",
+        "img": "jp2k/img62.bmp",
+        "moz1": 0.2174
+    },
+    {
+        "id": 94,
+        "prompt": "",
+        "img": "jp2k/img127.bmp",
+        "moz1": 0.6327
+    },
+    {
+        "id": 506,
+        "prompt": "",
+        "img": "gblur/img17.bmp",
+        "moz1": 0.8008
+    },
+    {
+        "id": 522,
+        "prompt": "",
+        "img": "gblur/img33.bmp",
+        "moz1": 0.3657
+    },
+    {
+        "id": 142,
+        "prompt": "",
+        "img": "jp2k/img194.bmp",
+        "moz1": 0.6133
+    },
+    {
+        "id": 682,
+        "prompt": "",
+        "img": "fastfading/img48.bmp",
+        "moz1": 0.4941
+    },
+    {
+        "id": 717,
+        "prompt": "",
+        "img": "fastfading/img83.bmp",
+        "moz1": 0.3055
+    },
+    {
+        "id": 409,
+        "prompt": "",
+        "img": "wn/img65.bmp",
+        "moz1": 0.5231
+    },
+    {
+        "id": 598,
+        "prompt": "",
+        "img": "gblur/img109.bmp",
+        "moz1": 0.4198
+    },
+    {
+        "id": 439,
+        "prompt": "",
+        "img": "wn/img95.bmp",
+        "moz1": 0.2529
+    },
+    {
+        "id": 599,
+        "prompt": "",
+        "img": "gblur/img110.bmp",
+        "moz1": 0.4207
+    },
+    {
+        "id": 270,
+        "prompt": "",
+        "img": "jpeg/img135.bmp",
+        "moz1": 0.2137
+    },
+    {
+        "id": 552,
+        "prompt": "",
+        "img": "gblur/img63.bmp",
+        "moz1": 0.2081
+    },
+    {
+        "id": 771,
+        "prompt": "",
+        "img": "fastfading/img137.bmp",
+        "moz1": 0.4462
+    },
+    {
+        "id": 253,
+        "prompt": "",
+        "img": "jpeg/img108.bmp",
+        "moz1": 0.562
+    },
+    {
+        "id": 772,
+        "prompt": "",
+        "img": "fastfading/img138.bmp",
+        "moz1": 0.3219
+    },
+    {
+        "id": 272,
+        "prompt": "",
+        "img": "jpeg/img138.bmp",
+        "moz1": 0.612
+    },
+    {
+        "id": 147,
+        "prompt": "",
+        "img": "jp2k/img199.bmp",
+        "moz1": 0.2108
+    },
+    {
+        "id": 470,
+        "prompt": "",
+        "img": "wn/img126.bmp",
+        "moz1": 0.4823
+    },
+    {
+        "id": 659,
+        "prompt": "",
+        "img": "fastfading/img25.bmp",
+        "moz1": 0.2433
+    },
+    {
+        "id": 406,
+        "prompt": "",
+        "img": "wn/img62.bmp",
+        "moz1": 0.4782
+    },
+    {
+        "id": 512,
+        "prompt": "",
+        "img": "gblur/img23.bmp",
+        "moz1": 0.2183
+    },
+    {
+        "id": 218,
+        "prompt": "",
+        "img": "jpeg/img67.bmp",
+        "moz1": 0.3437
+    },
+    {
+        "id": 323,
+        "prompt": "",
+        "img": "jpeg/img205.bmp",
+        "moz1": 0.5851
+    },
+    {
+        "id": 581,
+        "prompt": "",
+        "img": "gblur/img92.bmp",
+        "moz1": 0.2438
+    },
+    {
+        "id": 217,
+        "prompt": "",
+        "img": "jpeg/img65.bmp",
+        "moz1": 0.5617
+    },
+    {
+        "id": 68,
+        "prompt": "",
+        "img": "jp2k/img91.bmp",
+        "moz1": 0.5097
+    },
+    {
+        "id": 275,
+        "prompt": "",
+        "img": "jpeg/img144.bmp",
+        "moz1": 0.2143
+    },
+    {
+        "id": 411,
+        "prompt": "",
+        "img": "wn/img67.bmp",
+        "moz1": 0.3893
+    },
+    {
+        "id": 324,
+        "prompt": "",
+        "img": "jpeg/img206.bmp",
+        "moz1": 0.2236
+    },
+    {
+        "id": 763,
+        "prompt": "",
+        "img": "fastfading/img129.bmp",
+        "moz1": 0.2164
+    },
+    {
+        "id": 235,
+        "prompt": "",
+        "img": "jpeg/img89.bmp",
+        "moz1": 0.4432
+    },
+    {
+        "id": 58,
+        "prompt": "",
+        "img": "jp2k/img78.bmp",
+        "moz1": 0.3847
+    },
+    {
+        "id": 333,
+        "prompt": "",
+        "img": "jpeg/img218.bmp",
+        "moz1": 0.6041
+    },
+    {
+        "id": 225,
+        "prompt": "",
+        "img": "jpeg/img75.bmp",
+        "moz1": 0.547
+    },
+    {
+        "id": 571,
+        "prompt": "",
+        "img": "gblur/img82.bmp",
+        "moz1": 0.2314
+    },
+    {
+        "id": 656,
+        "prompt": "",
+        "img": "fastfading/img22.bmp",
+        "moz1": 0.5254
+    },
+    {
+        "id": 277,
+        "prompt": "",
+        "img": "jpeg/img146.bmp",
+        "moz1": 0.2925
+    },
+    {
+        "id": 389,
+        "prompt": "",
+        "img": "wn/img45.bmp",
+        "moz1": 0.273
+    },
+    {
+        "id": 474,
+        "prompt": "",
+        "img": "wn/img130.bmp",
+        "moz1": 0.5216
+    },
+    {
+        "id": 168,
+        "prompt": "",
+        "img": "jp2k/img226.bmp",
+        "moz1": 0.516
+    },
+    {
+        "id": 774,
+        "prompt": "",
+        "img": "fastfading/img140.bmp",
+        "moz1": 0.2188
+    },
+    {
+        "id": 547,
+        "prompt": "",
+        "img": "gblur/img58.bmp",
+        "moz1": 0.669
+    },
+    {
+        "id": 176,
+        "prompt": "",
+        "img": "jpeg/img13.bmp",
+        "moz1": 0.1954
+    },
+    {
+        "id": 703,
+        "prompt": "",
+        "img": "fastfading/img69.bmp",
+        "moz1": 0.6831
+    },
+    {
+        "id": 624,
+        "prompt": "",
+        "img": "gblur/img135.bmp",
+        "moz1": 0.4566
+    },
+    {
+        "id": 74,
+        "prompt": "",
+        "img": "jp2k/img101.bmp",
+        "moz1": 0.2428
+    },
+    {
+        "id": 664,
+        "prompt": "",
+        "img": "fastfading/img30.bmp",
+        "moz1": 0.2066
+    },
+    {
+        "id": 274,
+        "prompt": "",
+        "img": "jpeg/img143.bmp",
+        "moz1": 0.2006
+    },
+    {
+        "id": 687,
+        "prompt": "",
+        "img": "fastfading/img53.bmp",
+        "moz1": 0.4484
+    },
+    {
+        "id": 215,
+        "prompt": "",
+        "img": "jpeg/img63.bmp",
+        "moz1": 0.402
+    },
+    {
+        "id": 364,
+        "prompt": "",
+        "img": "wn/img20.bmp",
+        "moz1": 0.7568
+    },
+    {
+        "id": 380,
+        "prompt": "",
+        "img": "wn/img36.bmp",
+        "moz1": 0.5257
+    },
+    {
+        "id": 167,
+        "prompt": "",
+        "img": "jp2k/img225.bmp",
+        "moz1": 0.6805
+    },
+    {
+        "id": 374,
+        "prompt": "",
+        "img": "wn/img30.bmp",
+        "moz1": 0.3079
+    },
+    {
+        "id": 651,
+        "prompt": "",
+        "img": "fastfading/img17.bmp",
+        "moz1": 0.4785
+    },
+    {
+        "id": 465,
+        "prompt": "",
+        "img": "wn/img121.bmp",
+        "moz1": 0.5529
+    },
+    {
+        "id": 739,
+        "prompt": "",
+        "img": "fastfading/img105.bmp",
+        "moz1": 0.2392
+    },
+    {
+        "id": 733,
+        "prompt": "",
+        "img": "fastfading/img99.bmp",
+        "moz1": 0.5133
+    },
+    {
+        "id": 104,
+        "prompt": "",
+        "img": "jp2k/img142.bmp",
+        "moz1": 0.4463
+    },
+    {
+        "id": 768,
+        "prompt": "",
+        "img": "fastfading/img134.bmp",
+        "moz1": 0.2633
+    },
+    {
+        "id": 82,
+        "prompt": "",
+        "img": "jp2k/img109.bmp",
+        "moz1": 0.4202
+    },
+    {
+        "id": 297,
+        "prompt": "",
+        "img": "jpeg/img170.bmp",
+        "moz1": 0.5627
+    },
+    {
+        "id": 234,
+        "prompt": "",
+        "img": "jpeg/img86.bmp",
+        "moz1": 0.4867
+    },
+    {
+        "id": 678,
+        "prompt": "",
+        "img": "fastfading/img44.bmp",
+        "moz1": 0.2843
+    },
+    {
+        "id": 47,
+        "prompt": "",
+        "img": "jp2k/img60.bmp",
+        "moz1": 0.6118
+    },
+    {
+        "id": 72,
+        "prompt": "",
+        "img": "jp2k/img98.bmp",
+        "moz1": 0.4674
+    },
+    {
+        "id": 197,
+        "prompt": "",
+        "img": "jpeg/img41.bmp",
+        "moz1": 0.6058
+    },
+    {
+        "id": 592,
+        "prompt": "",
+        "img": "gblur/img103.bmp",
+        "moz1": 0.404
+    },
+    {
+        "id": 371,
+        "prompt": "",
+        "img": "wn/img27.bmp",
+        "moz1": 0.3913
+    },
+    {
+        "id": 634,
+        "prompt": "",
+        "img": "gblur/img145.bmp",
+        "moz1": 0.2388
+    },
+    {
+        "id": 644,
+        "prompt": "",
+        "img": "fastfading/img10.bmp",
+        "moz1": 0.1988
+    },
+    {
+        "id": 301,
+        "prompt": "",
+        "img": "jpeg/img176.bmp",
+        "moz1": 0.592
+    },
+    {
+        "id": 566,
+        "prompt": "",
+        "img": "gblur/img77.bmp",
+        "moz1": 0.3957
+    },
+    {
+        "id": 81,
+        "prompt": "",
+        "img": "jp2k/img108.bmp",
+        "moz1": 0.4747
+    },
+    {
+        "id": 388,
+        "prompt": "",
+        "img": "wn/img44.bmp",
+        "moz1": 0.5338
+    },
+    {
+        "id": 128,
+        "prompt": "",
+        "img": "jp2k/img174.bmp",
+        "moz1": 0.2305
+    },
+    {
+        "id": 550,
+        "prompt": "",
+        "img": "gblur/img61.bmp",
+        "moz1": 0.2776
+    },
+    {
+        "id": 471,
+        "prompt": "",
+        "img": "wn/img127.bmp",
+        "moz1": 0.2054
+    },
+    {
+        "id": 45,
+        "prompt": "",
+        "img": "jp2k/img58.bmp",
+        "moz1": 0.2124
+    },
+    {
+        "id": 271,
+        "prompt": "",
+        "img": "jpeg/img137.bmp",
+        "moz1": 0.2135
+    },
+    {
+        "id": 619,
+        "prompt": "",
+        "img": "gblur/img130.bmp",
+        "moz1": 0.4706
+    },
+    {
+        "id": 353,
+        "prompt": "",
+        "img": "wn/img9.bmp",
+        "moz1": 0.478
+    },
+    {
+        "id": 368,
+        "prompt": "",
+        "img": "wn/img24.bmp",
+        "moz1": 0.6554
+    },
+    {
+        "id": 100,
+        "prompt": "",
+        "img": "jp2k/img136.bmp",
+        "moz1": 0.385
+    },
+    {
+        "id": 390,
+        "prompt": "",
+        "img": "wn/img46.bmp",
+        "moz1": 0.3323
+    },
+    {
+        "id": 95,
+        "prompt": "",
+        "img": "jp2k/img129.bmp",
+        "moz1": 0.2745
+    },
+    {
+        "id": 770,
+        "prompt": "",
+        "img": "fastfading/img136.bmp",
+        "moz1": 0.5418
+    },
+    {
+        "id": 345,
+        "prompt": "",
+        "img": "wn/img1.bmp",
+        "moz1": 0.2845
+    },
+    {
+        "id": 221,
+        "prompt": "",
+        "img": "jpeg/img71.bmp",
+        "moz1": 0.3107
+    },
+    {
+        "id": 160,
+        "prompt": "",
+        "img": "jp2k/img216.bmp",
+        "moz1": 0.2548
+    },
+    {
+        "id": 745,
+        "prompt": "",
+        "img": "fastfading/img111.bmp",
+        "moz1": 0.4787
+    },
+    {
+        "id": 349,
+        "prompt": "",
+        "img": "wn/img5.bmp",
+        "moz1": 0.2225
+    },
+    {
+        "id": 764,
+        "prompt": "",
+        "img": "fastfading/img130.bmp",
+        "moz1": 0.2186
+    },
+    {
+        "id": 715,
+        "prompt": "",
+        "img": "fastfading/img81.bmp",
+        "moz1": 0.4467
+    },
+    {
+        "id": 164,
+        "prompt": "",
+        "img": "jp2k/img220.bmp",
+        "moz1": 0.6077
+    },
+    {
+        "id": 7,
+        "prompt": "",
+        "img": "jp2k/img8.bmp",
+        "moz1": 0.444
+    },
+    {
+        "id": 285,
+        "prompt": "",
+        "img": "jpeg/img156.bmp",
+        "moz1": 0.4502
+    },
+    {
+        "id": 604,
+        "prompt": "",
+        "img": "gblur/img115.bmp",
+        "moz1": 0.5415
+    },
+    {
+        "id": 460,
+        "prompt": "",
+        "img": "wn/img116.bmp",
+        "moz1": 0.5038
+    },
+    {
+        "id": 226,
+        "prompt": "",
+        "img": "jpeg/img77.bmp",
+        "moz1": 0.5602
+    },
+    {
+        "id": 430,
+        "prompt": "",
+        "img": "wn/img86.bmp",
+        "moz1": 0.4462
+    },
+    {
+        "id": 767,
+        "prompt": "",
+        "img": "fastfading/img133.bmp",
+        "moz1": 0.2504
+    },
+    {
+        "id": 719,
+        "prompt": "",
+        "img": "fastfading/img85.bmp",
+        "moz1": 0.48
+    },
+    {
+        "id": 666,
+        "prompt": "",
+        "img": "fastfading/img32.bmp",
+        "moz1": 0.4669
+    },
+    {
+        "id": 734,
+        "prompt": "",
+        "img": "fastfading/img100.bmp",
+        "moz1": 0.5385
+    },
+    {
+        "id": 204,
+        "prompt": "",
+        "img": "jpeg/img50.bmp",
+        "moz1": 0.5866
+    },
+    {
+        "id": 575,
+        "prompt": "",
+        "img": "gblur/img86.bmp",
+        "moz1": 0.3665
+    },
+    {
+        "id": 28,
+        "prompt": "",
+        "img": "jp2k/img38.bmp",
+        "moz1": 0.629
+    },
+    {
+        "id": 617,
+        "prompt": "",
+        "img": "gblur/img128.bmp",
+        "moz1": 0.5439
+    },
+    {
+        "id": 518,
+        "prompt": "",
+        "img": "gblur/img29.bmp",
+        "moz1": 0.3014
+    },
+    {
+        "id": 239,
+        "prompt": "",
+        "img": "jpeg/img93.bmp",
+        "moz1": 0.5977
+    },
+    {
+        "id": 224,
+        "prompt": "",
+        "img": "jpeg/img74.bmp",
+        "moz1": 0.2347
+    },
+    {
+        "id": 96,
+        "prompt": "",
+        "img": "jp2k/img130.bmp",
+        "moz1": 0.4372
+    },
+    {
+        "id": 31,
+        "prompt": "",
+        "img": "jp2k/img41.bmp",
+        "moz1": 0.4753
+    },
+    {
+        "id": 33,
+        "prompt": "",
+        "img": "jp2k/img43.bmp",
+        "moz1": 0.6417
+    },
+    {
+        "id": 433,
+        "prompt": "",
+        "img": "wn/img89.bmp",
+        "moz1": 0.4475
+    },
+    {
+        "id": 605,
+        "prompt": "",
+        "img": "gblur/img116.bmp",
+        "moz1": 0.7858
+    },
+    {
+        "id": 90,
+        "prompt": "",
+        "img": "jp2k/img122.bmp",
+        "moz1": 0.5346
+    },
+    {
+        "id": 559,
+        "prompt": "",
+        "img": "gblur/img70.bmp",
+        "moz1": 0.6915
+    },
+    {
+        "id": 759,
+        "prompt": "",
+        "img": "fastfading/img125.bmp",
+        "moz1": 0.2101
+    },
+    {
+        "id": 693,
+        "prompt": "",
+        "img": "fastfading/img59.bmp",
+        "moz1": 0.2194
+    },
+    {
+        "id": 105,
+        "prompt": "",
+        "img": "jp2k/img143.bmp",
+        "moz1": 0.451
+    },
+    {
+        "id": 755,
+        "prompt": "",
+        "img": "fastfading/img121.bmp",
+        "moz1": 0.512
+    },
+    {
+        "id": 143,
+        "prompt": "",
+        "img": "jp2k/img195.bmp",
+        "moz1": 0.2131
+    },
+    {
+        "id": 229,
+        "prompt": "",
+        "img": "jpeg/img80.bmp",
+        "moz1": 0.6592
+    },
+    {
+        "id": 251,
+        "prompt": "",
+        "img": "jpeg/img106.bmp",
+        "moz1": 0.2162
+    },
+    {
+        "id": 282,
+        "prompt": "",
+        "img": "jpeg/img151.bmp",
+        "moz1": 0.2102
+    },
+    {
+        "id": 760,
+        "prompt": "",
+        "img": "fastfading/img126.bmp",
+        "moz1": 0.5849
+    },
+    {
+        "id": 26,
+        "prompt": "",
+        "img": "jp2k/img34.bmp",
+        "moz1": 0.2329
+    },
+    {
+        "id": 115,
+        "prompt": "",
+        "img": "jp2k/img158.bmp",
+        "moz1": 0.5578
+    },
+    {
+        "id": 655,
+        "prompt": "",
+        "img": "fastfading/img21.bmp",
+        "moz1": 0.6171
+    }
+]
