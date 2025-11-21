@@ -68,8 +68,8 @@ pip install -r requirements.txt
 ```
 ## 🚀 Weight and Database Download
 The codes and inference weights can be downloaded from 
-链接：https://pan.baidu.com/s/1dJNN9sL-cPytOm8vjEDEHQ 
-提取码：k2vf 
+通过网盘分享的文件：MINT-IQA
+链接: https://pan.baidu.com/s/10e_x4NOwibf4z0e7s2Euhg 提取码: 89jg
 
 The Database is in:
 https://github.com/wangjiarui153/AIGCIQA2023
