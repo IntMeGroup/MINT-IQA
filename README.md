@@ -68,6 +68,10 @@ pip install -r requirements.txt
 ```
 ## 🚀 Weight and Database Download
 The codes and inference weights can be downloaded from 
+[IntMeGroup/MINT-IQA_pretrain ](https://huggingface.co/IntMeGroup/MINT-IQA_pretrain)
+
+or 
+
 通过网盘分享的文件：MINT-IQA
 链接: https://pan.baidu.com/s/10e_x4NOwibf4z0e7s2Euhg 提取码: 89jg
 
